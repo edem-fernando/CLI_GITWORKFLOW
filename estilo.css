@@ -89,20 +89,23 @@ body{
 	margin-top: 10px;
 }
 
-/*.form_contact{
-	color: #f0efe7;
+.form_contact{
 	padding: 40px;
-	margin: 40px;
-	background-color: #4e443c;
-	border-radius: 10px;
+	margin: 0 auto;
 }
 
 .form_contact label p{
 	margin-top: 20px;
+	margin-bottom: 20px;
 }
-.form_contact input{
+.form_contact input, textarea{
 	padding: 5px;
 	font-size: 0.875em;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #e2e0d8;
+	font-weight: 700;
 }
 
 .form_contact textarea{
@@ -110,15 +113,26 @@ body{
 }
 
 .form_contact .btn{
-	padding: 10px 20px !important;
+	padding: 10px 40px !important;
 	font-weight: 1em;
-	width: auto;
 	margin-top: 10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: none;
+	background-color: darkorange;
+	color: #FFF;
+	font-weight: 700;
+}
+.form_contact .btn:hover{
+	cursor: pointer;
+	background-color: #000;
+	color: #FFF;
 }
 
 .form_contact label, .form_contact input, .form_contact textarea{
 	width: 100%;
-}*/
+}
 
 .main_footer{
 	text-align: center;
